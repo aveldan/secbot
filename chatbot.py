@@ -93,9 +93,3 @@ if __name__ == "__main__":
             break
         
         print("\nBot: ", chat_bot.invoke(query).content, "\n\n")
-
-
-
-# query = "What do you know about CVE-1999-0001?"
-# res = chain.invoke(query)
-# print(res.content)

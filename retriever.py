@@ -1,26 +1,18 @@
 import getpass
 import os
 from dotenv import load_dotenv
+from tqdm import tqdm
+from time import sleep
 
 from langchain_community.document_loaders import CSVLoader
 from langchain_chroma import Chroma
 from langchain_huggingface.embeddings import HuggingFaceEndpointEmbeddings
+from huggingface_hub.utils import HfHubHTTPError
 
 load_dotenv()
 
 if not os.getenv("HUGGINGFACEHUB_API_TOKEN"):
     os.environ["HUGGINGFACEHUB_API_TOKEN"] = getpass.getpass("Enter your token: ")
-
-hf_embedding = HuggingFaceEndpointEmbeddings(
-    model="BAAI/bge-m3",
-    task="feature-extraction"
-)
-
-vector_db = Chroma(
-    persist_directory=os.getenv("CHROMA_PATH"),
-    embedding_function=hf_embedding,
-    collection_name="CVE"
-)
 
 
 def create_embeddings():
@@ -32,28 +24,31 @@ def create_embeddings():
         })
 
     data = loader.load()
-    print("Data Loading complete\n")
+    print("Data Loading complete...\n")
+    vector_db = db()
 
     i = 0
-    while i < len(data):
-        vector_db.add_documents(data[i:i+100])
-        i += 100
-    
-    return vector_db
+    with tqdm(total=15000) as pbar:
+        while i < 15000:
+            try:
+                vector_db.add_documents(data[i:i+20])
+                i += 20
+                pbar.update(20)
+                sleep(10)
+            except HfHubHTTPError:
+                print(f'TimeOut Error...{i}')
+                sleep(180)
 
+def db():
+    hf_embedding = HuggingFaceEndpointEmbeddings(
+        model="BAAI/bge-m3",
+        task="feature-extraction"
+    )
 
-def ret_test():
-    
-    
-    query = "CVE-1999-0001?"
+    vector_db = Chroma(
+        persist_directory=os.getenv("CHROMA_PATH"),
+        embedding_function=hf_embedding,
+        collection_name="CVE"
+    )
 
-    relevant_docs = vector_db.similarity_search(query=query, k=3)
-
-    print(f'Length: {len(relevant_docs)}\n\n\n\n')
-    for r in relevant_docs:
-        print(r,"\n\n\n\n")
-
-
-create_embeddings()
-
-# ret_test()
+    return vector_db.as_retriever(k=5)
