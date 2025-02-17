@@ -1,0 +1,1195 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "spdxVersion": "SPDX-2.3",
+    "creationInfo": {
+        "comment": "This document has been automatically generated.",
+        "creators": [
+            "Tool: sbom4python-0.10.4"
+        ],
+        "created": "2024-04-12T15:33:18Z",
+        "licenseListVersion": "3.22"
+    },
+    "name": "Python-accelerate",
+    "dataLicense": "CC0-1.0",
+    "documentNamespace": "http://spdx.org/spdxdocs/Python-accelerate-b649e851-cb35-4c8b-8930-43511e3bec35",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-Package-1-accelerate",
+            "name": "accelerate",
+            "versionInfo": "0.28.0",
+            "primaryPackagePurpose": "APPLICATION",
+            "supplier": "Organization: The HuggingFace team (zach.mueller@huggingface.co)",
+            "downloadLocation": "https://pypi.org/project/accelerate/0.28.0",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checkumValue": "9e72c6129685b796841d9f426af9d98e60d9f1b0"
+                }
+            ],
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "accelerate declares Apache which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "Accelerate",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/accelerate@0.28.0"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:the_huggingface_team:accelerate:0.28.0:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2-huggingface-hub",
+            "name": "huggingface-hub",
+            "versionInfo": "0.21.4",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: Hugging Inc. (julien@huggingface.co)",
+            "downloadLocation": "https://pypi.org/project/huggingface-hub/0.21.4",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "huggingface-hub declares Apache which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "Client library to download and publish models, datasets and other repos on the huggingface.co hub",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/huggingface-hub@0.21.4"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:hugging_inc.:huggingface-hub:0.21.4:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3-filelock",
+            "name": "filelock",
+            "versionInfo": "3.6.0",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Person: Benedikt Schmitt (benedikt@benediktschmitt.de)",
+            "downloadLocation": "https://pypi.org/project/filelock/3.6.0",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checkumValue": "befd166e05638e2d5921b1e9073c53643ed95e62"
+                }
+            ],
+            "licenseConcluded": "Unlicense",
+            "licenseDeclared": "Unlicense",
+            "copyrightText": "NOASSERTION",
+            "summary": "A platform independent file lock.",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/filelock@3.6.0"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:benedikt_schmitt:filelock:3.6.0:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4-fsspec",
+            "name": "fsspec",
+            "versionInfo": "2024.3.0",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "https://pypi.org/project/fsspec/2024.3.0",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checkumValue": "4bd16f64993af6092753d16df49298a19b58ce96"
+                }
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "fsspec declares BSD which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "File-system specification",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/fsspec@2024.3.0"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5-packaging",
+            "name": "packaging",
+            "versionInfo": "24.0",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Person: Donald Stufft (donald@stufft.io)",
+            "downloadLocation": "https://pypi.org/project/packaging/24.0",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "summary": "Core utilities for Python packages",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/packaging@24.0"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:donald_stufft:packaging:24.0:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6-pyyaml",
+            "name": "pyyaml",
+            "versionInfo": "5.4.1",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Person: Kirill Simonov (xi@resolvent.net)",
+            "downloadLocation": "https://pypi.org/project/PyYAML/5.4.1",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checkumValue": "b79e34b37e676371a6a104970a8a944fb514b679"
+                }
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "summary": "YAML parser and emitter for Python",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/pyyaml@5.4.1"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:kirill_simonov:pyyaml:5.4.1:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-7-requests",
+            "name": "requests",
+            "versionInfo": "2.31.0",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Person: Kenneth Reitz (me@kennethreitz.org)",
+            "downloadLocation": "https://pypi.org/project/requests/2.31.0",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checkumValue": "147c8511ddbfa5e8f71bbf5c18ede0c4ceb3bba4"
+                }
+            ],
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "requests declares Apache 2.0 which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "Python HTTP for Humans.",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/requests@2.31.0"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:kenneth_reitz:requests:2.31.0:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-8-certifi",
+            "name": "certifi",
+            "versionInfo": "2020.6.20",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Person: Kenneth Reitz (me@kennethreitz.com)",
+            "downloadLocation": "https://pypi.org/project/certifi/2020.6.20",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MPL-2.0",
+            "licenseDeclared": "MPL-2.0",
+            "copyrightText": "NOASSERTION",
+            "summary": "Python package for providing Mozilla's CA Bundle.",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/certifi@2020.6.20"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:kenneth_reitz:certifi:2020.6.20:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-9-charset-normalizer",
+            "name": "charset-normalizer",
+            "versionInfo": "3.3.2",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Person: Ahmed TAHRI (ahmed.tahri@cloudnursery.dev)",
+            "downloadLocation": "https://pypi.org/project/charset-normalizer/3.3.2",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checkumValue": "79dce4857914fead2ffe55eb787cad6d5cf14643"
+                }
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "summary": "The Real First Universal Charset Detector. Open, modern and actively maintained alternative to Chardet.",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/charset-normalizer@3.3.2"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:ahmed_tahri:charset-normalizer:3.3.2:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-10-idna",
+            "name": "idna",
+            "versionInfo": "3.3",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Person: Kim Davies (kim@cynosure.com.au)",
+            "downloadLocation": "https://pypi.org/project/idna/3.3",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checkumValue": "522c0ebe02d8bd09039dd593e7c152ab5a1d26dd"
+                }
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "copyrightText": "NOASSERTION",
+            "summary": "Internationalized Domain Names in Applications (IDNA)",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/idna@3.3"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:kim_davies:idna:3.3:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-11-urllib3",
+            "name": "urllib3",
+            "versionInfo": "1.26.5",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Person: Andrey Petrov (andrey.petrov@shazow.net)",
+            "downloadLocation": "https://pypi.org/project/urllib3/1.26.5",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checkumValue": "d1616473df94b94f0f5ad19d2a6608cfe93b7cdf"
+                }
+            ],
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "copyrightText": "NOASSERTION",
+            "summary": "HTTP library with thread-safe connection pooling, file post, and more.",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/urllib3@1.26.5"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:andrey_petrov:urllib3:1.26.5:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-12-tqdm",
+            "name": "tqdm",
+            "versionInfo": "4.66.2",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "NOASSERTION",
+            "downloadLocation": "https://pypi.org/project/tqdm/4.66.2",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MPL-2.0 AND MIT",
+            "licenseDeclared": "MPL-2.0 AND MIT",
+            "copyrightText": "NOASSERTION",
+            "summary": "Fast, Extensible Progress Meter",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/tqdm@4.66.2"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-13-typing-extensions",
+            "name": "typing-extensions",
+            "versionInfo": "4.10.0",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: Guido van Jukka ukasz Michael (levkivskyi@gmail.com)",
+            "downloadLocation": "https://pypi.org/project/typing_extensions/4.10.0",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checkumValue": "06b23e3f05fd0f929dbaea17ae51621dcc8434ab"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "summary": "Backported and Experimental Type Hints for Python 3.8+",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/typing-extensions@4.10.0"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:guido_van_jukka_ukasz_michael:typing-extensions:4.10.0:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-14-numpy",
+            "name": "numpy",
+            "versionInfo": "1.26.4",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: Travis E. Oliphant et al.",
+            "downloadLocation": "https://pypi.org/project/numpy/1.26.4",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checkumValue": "9815c16f449e12915ef35a8255329ba26dacd5c0"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "numpy declares Copyright (c) 2005-2023, NumPy Developers. which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "Fundamental package for array computing in Python",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/numpy@1.26.4"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:travis_e._oliphant_et_al.:numpy:1.26.4:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-15-psutil",
+            "name": "psutil",
+            "versionInfo": "5.9.0",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Person: Giampaolo Rodola (g.rodola@gmail.com)",
+            "downloadLocation": "https://pypi.org/project/psutil/5.9.0",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checkumValue": "f1a54ad88527e0706fb8a88ad7daae80686acc62"
+                }
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "psutil declares BSD which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "Cross-platform lib for process and system monitoring in Python.",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/psutil@5.9.0"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:giampaolo_rodola:psutil:5.9.0:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-16-safetensors",
+            "name": "safetensors",
+            "versionInfo": "0.4.2",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Person: Nicolas Patry (patry.nicolas@protonmail.com)",
+            "downloadLocation": "https://pypi.org/project/safetensors/0.4.2",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/safetensors@0.4.2"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:nicolas_patry:safetensors:0.4.2:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-17-torch",
+            "name": "torch",
+            "versionInfo": "2.2.1",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Person: PyTorch Team (packages@pytorch.org)",
+            "downloadLocation": "https://pypi.org/project/torch/2.2.1",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checkumValue": "6c8c5ad5eaf47a62fafbb4a2747198cbffbf1ff0"
+                }
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "torch declares BSD-3 which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/torch@2.2.1"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:pytorch_team:torch:2.2.1:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-18-jinja2",
+            "name": "jinja2",
+            "versionInfo": "3.0.3",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Person: Armin Ronacher (armin.ronacher@active-4.com)",
+            "downloadLocation": "https://pypi.org/project/Jinja2/3.0.3",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checkumValue": "2a48dd898d72f1a119ee923996e70aa43da04ea4"
+                }
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "BSD-3-Clause",
+            "copyrightText": "NOASSERTION",
+            "summary": "A very fast and expressive template engine.",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/jinja2@3.0.3"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:armin_ronacher:jinja2:3.0.3:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-19-networkx",
+            "name": "networkx",
+            "versionInfo": "3.2.1",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Person: Aric Hagberg (hagberg@lanl.gov)",
+            "downloadLocation": "https://pypi.org/project/networkx/3.2.1",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checkumValue": "9c1ee6392311d056760714d4126cd6382f75a96f"
+                }
+            ],
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "summary": "Python package for creating and manipulating graphs and networks",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/networkx@3.2.1"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:aric_hagberg:networkx:3.2.1:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-20-nvidia-cublas-cu12",
+            "name": "nvidia-cublas-cu12",
+            "versionInfo": "12.1.3.1",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: Nvidia CUDA Installer Team (cuda_installer@nvidia.com)",
+            "downloadLocation": "https://pypi.org/project/nvidia-cublas-cu12/12.1.3.1",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "nvidia-cublas-cu12 declares NVIDIA Proprietary Software which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "CUBLAS native runtime libraries",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/nvidia-cublas-cu12@12.1.3.1"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:nvidia_cuda_installer_team:nvidia-cublas-cu12:12.1.3.1:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-21-nvidia-cuda-cupti-cu12",
+            "name": "nvidia-cuda-cupti-cu12",
+            "versionInfo": "12.1.105",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: Nvidia CUDA Installer Team (cuda_installer@nvidia.com)",
+            "downloadLocation": "https://pypi.org/project/nvidia-cuda-cupti-cu12/12.1.105",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "nvidia-cuda-cupti-cu12 declares NVIDIA Proprietary Software which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "CUDA profiling tools runtime libs.",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/nvidia-cuda-cupti-cu12@12.1.105"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:nvidia_cuda_installer_team:nvidia-cuda-cupti-cu12:12.1.105:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-22-nvidia-cuda-nvrtc-cu12",
+            "name": "nvidia-cuda-nvrtc-cu12",
+            "versionInfo": "12.1.105",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: Nvidia CUDA Installer Team (cuda_installer@nvidia.com)",
+            "downloadLocation": "https://pypi.org/project/nvidia-cuda-nvrtc-cu12/12.1.105",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "nvidia-cuda-nvrtc-cu12 declares NVIDIA Proprietary Software which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "NVRTC native runtime libraries",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/nvidia-cuda-nvrtc-cu12@12.1.105"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:nvidia_cuda_installer_team:nvidia-cuda-nvrtc-cu12:12.1.105:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-23-nvidia-cuda-runtime-cu12",
+            "name": "nvidia-cuda-runtime-cu12",
+            "versionInfo": "12.1.105",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: Nvidia CUDA Installer Team (cuda_installer@nvidia.com)",
+            "downloadLocation": "https://pypi.org/project/nvidia-cuda-runtime-cu12/12.1.105",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "nvidia-cuda-runtime-cu12 declares NVIDIA Proprietary Software which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "CUDA Runtime native Libraries",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/nvidia-cuda-runtime-cu12@12.1.105"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:nvidia_cuda_installer_team:nvidia-cuda-runtime-cu12:12.1.105:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-24-nvidia-cudnn-cu12",
+            "name": "nvidia-cudnn-cu12",
+            "versionInfo": "8.9.2.26",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: Nvidia CUDA Installer Team (cuda_installer@nvidia.com)",
+            "downloadLocation": "https://pypi.org/project/nvidia-cudnn-cu12/8.9.2.26",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "nvidia-cudnn-cu12 declares NVIDIA Proprietary Software which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "cuDNN runtime libraries",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/nvidia-cudnn-cu12@8.9.2.26"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:nvidia_cuda_installer_team:nvidia-cudnn-cu12:8.9.2.26:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-25-nvidia-cufft-cu12",
+            "name": "nvidia-cufft-cu12",
+            "versionInfo": "11.0.2.54",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: Nvidia CUDA Installer Team (cuda_installer@nvidia.com)",
+            "downloadLocation": "https://pypi.org/project/nvidia-cufft-cu12/11.0.2.54",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "nvidia-cufft-cu12 declares NVIDIA Proprietary Software which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "CUFFT native runtime libraries",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/nvidia-cufft-cu12@11.0.2.54"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:nvidia_cuda_installer_team:nvidia-cufft-cu12:11.0.2.54:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-26-nvidia-curand-cu12",
+            "name": "nvidia-curand-cu12",
+            "versionInfo": "10.3.2.106",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: Nvidia CUDA Installer Team (cuda_installer@nvidia.com)",
+            "downloadLocation": "https://pypi.org/project/nvidia-curand-cu12/10.3.2.106",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "nvidia-curand-cu12 declares NVIDIA Proprietary Software which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "CURAND native runtime libraries",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/nvidia-curand-cu12@10.3.2.106"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:nvidia_cuda_installer_team:nvidia-curand-cu12:10.3.2.106:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-27-nvidia-cusolver-cu12",
+            "name": "nvidia-cusolver-cu12",
+            "versionInfo": "11.4.5.107",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: Nvidia CUDA Installer Team (cuda_installer@nvidia.com)",
+            "downloadLocation": "https://pypi.org/project/nvidia-cusolver-cu12/11.4.5.107",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "nvidia-cusolver-cu12 declares NVIDIA Proprietary Software which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "CUDA solver native runtime libraries",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/nvidia-cusolver-cu12@11.4.5.107"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:nvidia_cuda_installer_team:nvidia-cusolver-cu12:11.4.5.107:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-28-nvidia-cusparse-cu12",
+            "name": "nvidia-cusparse-cu12",
+            "versionInfo": "12.1.0.106",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: Nvidia CUDA Installer Team (cuda_installer@nvidia.com)",
+            "downloadLocation": "https://pypi.org/project/nvidia-cusparse-cu12/12.1.0.106",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "nvidia-cusparse-cu12 declares NVIDIA Proprietary Software which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "CUSPARSE native runtime libraries",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/nvidia-cusparse-cu12@12.1.0.106"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:nvidia_cuda_installer_team:nvidia-cusparse-cu12:12.1.0.106:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-29-nvidia-nvjitlink-cu12",
+            "name": "nvidia-nvjitlink-cu12",
+            "versionInfo": "12.4.99",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: Nvidia CUDA Installer Team (cuda_installer@nvidia.com)",
+            "downloadLocation": "https://pypi.org/project/nvidia-nvjitlink-cu12/12.4.99",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "nvidia-nvjitlink-cu12 declares NVIDIA Proprietary Software which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "Nvidia JIT LTO Library",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/nvidia-nvjitlink-cu12@12.4.99"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:nvidia_cuda_installer_team:nvidia-nvjitlink-cu12:12.4.99:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-30-nvidia-nccl-cu12",
+            "name": "nvidia-nccl-cu12",
+            "versionInfo": "2.19.3",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: Nvidia CUDA Installer Team (cuda_installer@nvidia.com)",
+            "downloadLocation": "https://pypi.org/project/nvidia-nccl-cu12/2.19.3",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "nvidia-nccl-cu12 declares NVIDIA Proprietary Software which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "NVIDIA Collective Communication Library (NCCL) Runtime",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/nvidia-nccl-cu12@2.19.3"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:nvidia_cuda_installer_team:nvidia-nccl-cu12:2.19.3:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-31-nvidia-nvtx-cu12",
+            "name": "nvidia-nvtx-cu12",
+            "versionInfo": "12.1.105",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: Nvidia CUDA Installer Team (cuda_installer@nvidia.com)",
+            "downloadLocation": "https://pypi.org/project/nvidia-nvtx-cu12/12.1.105",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "nvidia-nvtx-cu12 declares NVIDIA Proprietary Software which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "NVIDIA Tools Extension",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/nvidia-nvtx-cu12@12.1.105"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:nvidia_cuda_installer_team:nvidia-nvtx-cu12:12.1.105:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-32-sympy",
+            "name": "sympy",
+            "versionInfo": "1.12",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Organization: SymPy development team (sympy@googlegroups.com)",
+            "downloadLocation": "https://pypi.org/project/sympy/1.12",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checkumValue": "a44299273eeb4838beaee9af3b688f2f44d7702f"
+                }
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "sympy declares BSD which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "Computer algebra system (CAS) in Python",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/sympy@1.12"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:sympy_development_team:sympy:1.12:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-33-mpmath",
+            "name": "mpmath",
+            "versionInfo": "1.3.0",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Person: Fredrik Johansson (fredrik.johansson@gmail.com)",
+            "downloadLocation": "https://pypi.org/project/mpmath/1.3.0",
+            "filesAnalyzed": false,
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checkumValue": "b5c04506ef0cd4a1f1213f8389ee21c9c3551582"
+                }
+            ],
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "NOASSERTION",
+            "licenseComments": "mpmath declares BSD which is not currently a valid SPDX License identifier or expression.",
+            "copyrightText": "NOASSERTION",
+            "summary": "Python library for arbitrary-precision floating-point arithmetic",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/mpmath@1.3.0"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:fredrik_johansson:mpmath:1.3.0:*:*:*:*:*:*:*"
+                }
+            ]
+        },
+        {
+            "SPDXID": "SPDXRef-Package-34-triton",
+            "name": "triton",
+            "versionInfo": "2.2.0",
+            "primaryPackagePurpose": "LIBRARY",
+            "supplier": "Person: Philippe Tillet (phil@openai.com)",
+            "downloadLocation": "https://pypi.org/project/triton/2.2.0",
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "copyrightText": "NOASSERTION",
+            "summary": "A language and compiler for custom Deep Learning operations",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/triton@2.2.0"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceType": "cpe23Type",
+                    "referenceLocator": "cpe:2.3:a:philippe_tillet:triton:2.2.0:*:*:*:*:*:*:*"
+                }
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Package-1-accelerate",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1-accelerate",
+            "relatedSpdxElement": "SPDXRef-Package-14-numpy",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1-accelerate",
+            "relatedSpdxElement": "SPDXRef-Package-15-psutil",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1-accelerate",
+            "relatedSpdxElement": "SPDXRef-Package-16-safetensors",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1-accelerate",
+            "relatedSpdxElement": "SPDXRef-Package-17-torch",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1-accelerate",
+            "relatedSpdxElement": "SPDXRef-Package-2-huggingface-hub",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1-accelerate",
+            "relatedSpdxElement": "SPDXRef-Package-5-packaging",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1-accelerate",
+            "relatedSpdxElement": "SPDXRef-Package-6-pyyaml",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-13-typing-extensions",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-18-jinja2",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-19-networkx",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-20-nvidia-cublas-cu12",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-21-nvidia-cuda-cupti-cu12",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-22-nvidia-cuda-nvrtc-cu12",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-23-nvidia-cuda-runtime-cu12",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-24-nvidia-cudnn-cu12",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-25-nvidia-cufft-cu12",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-26-nvidia-curand-cu12",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-27-nvidia-cusolver-cu12",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-28-nvidia-cusparse-cu12",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-3-filelock",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-30-nvidia-nccl-cu12",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-31-nvidia-nvtx-cu12",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-32-sympy",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-34-triton",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-17-torch",
+            "relatedSpdxElement": "SPDXRef-Package-4-fsspec",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2-huggingface-hub",
+            "relatedSpdxElement": "SPDXRef-Package-12-tqdm",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2-huggingface-hub",
+            "relatedSpdxElement": "SPDXRef-Package-13-typing-extensions",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2-huggingface-hub",
+            "relatedSpdxElement": "SPDXRef-Package-3-filelock",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2-huggingface-hub",
+            "relatedSpdxElement": "SPDXRef-Package-4-fsspec",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2-huggingface-hub",
+            "relatedSpdxElement": "SPDXRef-Package-5-packaging",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2-huggingface-hub",
+            "relatedSpdxElement": "SPDXRef-Package-6-pyyaml",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-2-huggingface-hub",
+            "relatedSpdxElement": "SPDXRef-Package-7-requests",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-24-nvidia-cudnn-cu12",
+            "relatedSpdxElement": "SPDXRef-Package-20-nvidia-cublas-cu12",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-27-nvidia-cusolver-cu12",
+            "relatedSpdxElement": "SPDXRef-Package-20-nvidia-cublas-cu12",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-27-nvidia-cusolver-cu12",
+            "relatedSpdxElement": "SPDXRef-Package-28-nvidia-cusparse-cu12",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-27-nvidia-cusolver-cu12",
+            "relatedSpdxElement": "SPDXRef-Package-29-nvidia-nvjitlink-cu12",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-28-nvidia-cusparse-cu12",
+            "relatedSpdxElement": "SPDXRef-Package-29-nvidia-nvjitlink-cu12",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-32-sympy",
+            "relatedSpdxElement": "SPDXRef-Package-33-mpmath",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-34-triton",
+            "relatedSpdxElement": "SPDXRef-Package-3-filelock",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-7-requests",
+            "relatedSpdxElement": "SPDXRef-Package-10-idna",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-7-requests",
+            "relatedSpdxElement": "SPDXRef-Package-11-urllib3",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-7-requests",
+            "relatedSpdxElement": "SPDXRef-Package-8-certifi",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-7-requests",
+            "relatedSpdxElement": "SPDXRef-Package-9-charset-normalizer",
+            "relationshipType": "DEPENDS_ON"
+        }
+    ]
+}

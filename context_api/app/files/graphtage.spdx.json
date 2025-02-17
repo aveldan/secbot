@@ -1,0 +1,496 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2024-04-11T16:49:34Z",
+        "creators": [
+            "Tool: sbom4python-0.10.4"
+        ],
+        "licenseListVersion": "3.22",
+        "comment": "This document has been automatically generated."
+    },
+    "dataLicense": "CC0-1.0",
+    "name": "Python-graphtage",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "http://spdx.org/spdxdocs/Python-graphtage-f888d424-7557-448c-a3d9-cc2ec05995c4",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-Package-1-graphtage",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "23654acf488eb803a60ce27ac515ee0755feb1a7"
+                }
+            ],
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "https://pypi.org/project/graphtage/0.3.1",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/graphtage@0.3.1",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:trail_of_bits:graphtage:0.3.1:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "LGPL-3.0-or-later",
+            "licenseDeclared": "LGPL-3.0-or-later",
+            "name": "graphtage",
+            "primaryPackagePurpose": "APPLICATION",
+            "summary": "A utility to diff tree-like files such as JSON and XML.",
+            "supplier": "Person: Trail of Bits",
+            "versionInfo": "0.3.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-2-colorama",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "6e5fef2d29bbbcf5485bb320972dbb6813b6705b"
+                }
+            ],
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "https://pypi.org/project/colorama/0.4.4",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/colorama@0.4.4",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:jonathan_hartley:colorama:0.4.4:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseComments": "colorama declares BSD which is not currently a valid SPDX License identifier or expression.",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "NOASSERTION",
+            "name": "colorama",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Cross-platform colored terminal text.",
+            "supplier": "Person: Jonathan Hartley (tartley@tartley.com)",
+            "versionInfo": "0.4.4"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-3-fickling",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "https://pypi.org/project/fickling/0.1.3",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/fickling@0.1.3",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:trail_of_bits:fickling:0.1.3:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "fickling",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "A static analyzer and interpreter for Python pickle data",
+            "supplier": "Organization: Trail of Bits (opensource@trailofbits.com)",
+            "versionInfo": "0.1.3"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-4-astunparse",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "2acce01fcdda2ea32eea835c30ccca21aaff7297"
+                }
+            ],
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "https://pypi.org/project/astunparse/1.6.3",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/astunparse@1.6.3",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseComments": "astunparse declares BSD which is not currently a valid SPDX License identifier or expression.",
+            "licenseConcluded": "BSD-3-Clause",
+            "licenseDeclared": "NOASSERTION",
+            "name": "astunparse",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "An AST unparser for Python",
+            "supplier": "NOASSERTION",
+            "versionInfo": "1.6.3"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-5-six",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "65486e4383f9f411da95937451205d3c7b61b9e1"
+                }
+            ],
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "https://pypi.org/project/six/1.16.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/six@1.16.0",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:benjamin_peterson:six:1.16.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "six",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Python 2 and 3 compatibility utilities",
+            "supplier": "Person: Benjamin Peterson (benjamin@python.org)",
+            "versionInfo": "1.16.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-6-wheel",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "c716c87ffa528ac9a31de3ed3217058848dc2cd2"
+                }
+            ],
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "https://pypi.org/project/wheel/0.37.1",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/wheel@0.37.1",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:daniel_holth:wheel:0.37.1:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "wheel",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "A built-package format for Python",
+            "supplier": "Person: Daniel Holth (dholth@fastmail.fm)",
+            "versionInfo": "0.37.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-7-intervaltree",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "f58692843de137c4294b54ef992508eac26552f9"
+                }
+            ],
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "https://pypi.org/project/intervaltree/3.1.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/intervaltree@3.1.0",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:chaim_leib_konstantin_tretyakov:intervaltree:3.1.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseComments": "intervaltree declares Apache License, Version 2.0 which is not currently a valid SPDX License identifier or expression.",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "NOASSERTION",
+            "name": "intervaltree",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Editable interval tree data structure for Python 2 and 3",
+            "supplier": "Organization: Chaim Leib Konstantin Tretyakov (chaim.leib.halbert@gmail.com)",
+            "versionInfo": "3.1.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-8-sortedcontainers",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "https://pypi.org/project/sortedcontainers/2.4.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/sortedcontainers@2.4.0",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:grant_jenks:sortedcontainers:2.4.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseComments": "sortedcontainers declares Apache 2.0 which is not currently a valid SPDX License identifier or expression.",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "NOASSERTION",
+            "name": "sortedcontainers",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Sorted Containers -- Sorted List, Sorted Dict, Sorted Set",
+            "supplier": "Person: Grant Jenks (contact@grantjenks.com)",
+            "versionInfo": "2.4.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-9-json5",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "9335da8aacb4d6391e25275ecfeda3c968149326"
+                }
+            ],
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "https://pypi.org/project/json5/0.9.5",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/json5@0.9.5",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:dirk_pranke:json5:0.9.5:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseComments": "json5 declares Apache which is not currently a valid SPDX License identifier or expression.",
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "NOASSERTION",
+            "name": "json5",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "A Python implementation of the JSON5 data format.",
+            "supplier": "Person: Dirk Pranke (dpranke@chromium.org)",
+            "versionInfo": "0.9.5"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-10-numpy",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "9815c16f449e12915ef35a8255329ba26dacd5c0"
+                }
+            ],
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "https://pypi.org/project/numpy/1.26.4",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/numpy@1.26.4",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:travis_e._oliphant_et_al.:numpy:1.26.4:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseComments": "numpy declares Copyright (c) 2005-2023, NumPy Developers. which is not currently a valid SPDX License identifier or expression.",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "numpy",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Fundamental package for array computing in Python",
+            "supplier": "Organization: Travis E. Oliphant et al.",
+            "versionInfo": "1.26.4"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-11-pyyaml",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "b79e34b37e676371a6a104970a8a944fb514b679"
+                }
+            ],
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "https://pypi.org/project/PyYAML/5.4.1",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/pyyaml@5.4.1",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:kirill_simonov:pyyaml:5.4.1:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "licenseDeclared": "MIT",
+            "name": "pyyaml",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "YAML parser and emitter for Python",
+            "supplier": "Person: Kirill Simonov (xi@resolvent.net)",
+            "versionInfo": "5.4.1"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-12-scipy",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "https://pypi.org/project/scipy/1.13.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/scipy@1.13.0",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseComments": "scipy declares Copyright (c) 2001-2002 Enthought, Inc. 2003-2024, SciPy Developers. which is not currently a valid SPDX License identifier or expression.",
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "scipy",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Fundamental algorithms for scientific computing in Python",
+            "supplier": "NOASSERTION",
+            "versionInfo": "1.13.0"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-13-tqdm",
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "https://pypi.org/project/tqdm/4.66.2",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/tqdm@4.66.2",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "MPL-2.0 AND MIT",
+            "licenseDeclared": "MPL-2.0 AND MIT",
+            "name": "tqdm",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Fast, Extensible Progress Meter",
+            "supplier": "NOASSERTION",
+            "versionInfo": "4.66.2"
+        },
+        {
+            "SPDXID": "SPDXRef-Package-14-typing-extensions",
+            "checksums": [
+                {
+                    "algorithm": "SHA1",
+                    "checksumValue": "06b23e3f05fd0f929dbaea17ae51621dcc8434ab"
+                }
+            ],
+            "copyrightText": "NOASSERTION",
+            "downloadLocation": "https://pypi.org/project/typing_extensions/4.10.0",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:pypi/typing-extensions@4.10.0",
+                    "referenceType": "purl"
+                },
+                {
+                    "referenceCategory": "SECURITY",
+                    "referenceLocator": "cpe:2.3:a:guido_van_jukka_ukasz_michael:typing-extensions:4.10.0:*:*:*:*:*:*:*",
+                    "referenceType": "cpe23Type"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "NOASSERTION",
+            "licenseDeclared": "NOASSERTION",
+            "name": "typing-extensions",
+            "primaryPackagePurpose": "LIBRARY",
+            "summary": "Backported and Experimental Type Hints for Python 3.8+",
+            "supplier": "Organization: Guido van Jukka ukasz Michael (levkivskyi@gmail.com)",
+            "versionInfo": "4.10.0"
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Package-1-graphtage",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1-graphtage",
+            "relatedSpdxElement": "SPDXRef-Package-10-numpy",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1-graphtage",
+            "relatedSpdxElement": "SPDXRef-Package-11-pyyaml",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1-graphtage",
+            "relatedSpdxElement": "SPDXRef-Package-12-scipy",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1-graphtage",
+            "relatedSpdxElement": "SPDXRef-Package-13-tqdm",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1-graphtage",
+            "relatedSpdxElement": "SPDXRef-Package-14-typing-extensions",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1-graphtage",
+            "relatedSpdxElement": "SPDXRef-Package-2-colorama",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1-graphtage",
+            "relatedSpdxElement": "SPDXRef-Package-3-fickling",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1-graphtage",
+            "relatedSpdxElement": "SPDXRef-Package-7-intervaltree",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-1-graphtage",
+            "relatedSpdxElement": "SPDXRef-Package-9-json5",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-12-scipy",
+            "relatedSpdxElement": "SPDXRef-Package-10-numpy",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-3-fickling",
+            "relatedSpdxElement": "SPDXRef-Package-4-astunparse",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4-astunparse",
+            "relatedSpdxElement": "SPDXRef-Package-5-six",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-4-astunparse",
+            "relatedSpdxElement": "SPDXRef-Package-6-wheel",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-Package-7-intervaltree",
+            "relatedSpdxElement": "SPDXRef-Package-8-sortedcontainers",
+            "relationshipType": "DEPENDS_ON"
+        }
+    ]
+}
